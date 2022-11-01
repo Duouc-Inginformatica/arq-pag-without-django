@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(gradient.css);
 /*!
 * Start Bootstrap - Modern Business v5.0.6 (https://startbootstrap.com/template-overviews/modern-business)
 * Copyright 2013-2022 Start Bootstrap
@@ -4062,6 +4063,7 @@ textarea.form-control-lg {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  
 }
 .navbar-nav .nav-link {
   padding-right: 0;
