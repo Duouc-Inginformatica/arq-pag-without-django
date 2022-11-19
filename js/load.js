@@ -22,3 +22,21 @@ window.logine = async () => {
     })
     
   }
+
+  window.assign = async () => {
+    const Toast = Swal.mixin({
+      toast: true,
+      position: 'top-right',
+      iconColor: 'green',
+      customClass: {
+        popup: 'colored-toast'
+      },
+      showConfirmButton: false,
+      timer: 2000,
+      timerProgressBar: true
+    })
+    await Toast.fire({
+      icon: 'success',
+      title: 'Se agendo correctamente la clase'
+    })
+    }
